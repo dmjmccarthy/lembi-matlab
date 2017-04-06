@@ -1,37 +1,13 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/dmjmccarthy/lembi/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+These algorithms were developed by [David McCarthy](//davidmccarthy.me.uk) during a research into a measurement system for monitoring dynamic tests of civil engineering structures using long exposure motion blurred images, named LEMBI monitoring.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Introduction
 
-### Markdown
+Photogrammetry has in the past been used to monitor the static properties of laboratory samples and full-scale structures using multiple image sensors. Detecting vibrations during dynamic structural tests conventionally depends on high-speed cameras, often resulting in lower image resolutions and reduced accuracy. To overcome this limitation, a novel and radically different approach was developed to take measurements from blurred images in long-exposure photos. The motion of the structure is captured in an individual motion-blurred image, alleviating the dependence on imaging speed.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The bespoke algorithms contained herein were devised to determine the motion amplitude and direction of a circular target at each measurement point.
 
-```markdown
-Syntax highlighted code block
+### Development Chapter
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dmjmccarthy/lembi/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The code was originally written in Matlab and utilised Matlab's own Image Processing Toolbox. This project will translate the code into Python and use OpenCV, making performance improvements along the way. The intention is that the code will be published here with a demonstation dataset.
