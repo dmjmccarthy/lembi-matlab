@@ -1,5 +1,3 @@
-## Welcome to GitHub Pages
-
 These algorithms were developed by [David McCarthy](//davidmccarthy.me.uk) during a research into a measurement system for monitoring dynamic tests of civil engineering structures using long exposure motion blurred images, named LEMBI monitoring.
 
 ### Introduction
